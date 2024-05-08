@@ -1,0 +1,41 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saamturner.github.io/znhworkshop/wpa-field-recordings-in-jacksonville-/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "WPA field recordings in Jacksonville " ] },
+    "homepage": [
+      {
+        "id": "https://www.floridamemory.com/items/show/238024",
+        "type": "Text",
+        "label": { "en": [ "WPA field recordings in Jacksonville " ] },
+        "format": "text/html"
+      }
+    ],
+    "items": [
+      {
+        "id": "https://saamturner.github.io/znhworkshop/wpa-field-recordings-in-jacksonville-/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 3530.0,
+        "items": [
+          {
+            "id": "https://saamturner.github.io/znhworkshop/wpa-field-recordings-in-jacksonville-/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saamturner.github.io/znhworkshop/wpa-field-recordings-in-jacksonville-/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.floridamemory.com/fpc/memory/Collections/folklife/folklife-MP3/T86-243.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 3530.0
+                },
+                "target": "https://saamturner.github.io/znhworkshop/wpa-field-recordings-in-jacksonville-/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
